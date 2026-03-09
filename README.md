@@ -1,6 +1,6 @@
 # RabbitMQ Ping-Pong - Distributed State Machine
 
-**Authors:** UMER Muhammad and GOMEZ ROSALES Laura Sofía
+**Authors:** GOMEZ ROSALES Laura Sofía and UMER Muhammad
 
 ---
 
@@ -20,7 +20,7 @@ This implementation solves the problem where two nodes might try to initiate the
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/Slrosales/RabbitMQ_PingPong.git
+git clone https://github.com/Slrosales/PING-PONG_Groupe_J.git
 cd PING-PONG_Groupe_J
 ```
 
@@ -28,7 +28,7 @@ cd PING-PONG_Groupe_J
 We use Docker to run RabbitMQ.
 
 ```bash
-docker run -d --hostname rabbit-host --name my-rabbit -p 5672:5672 -p 15672:15672 rabbitmq:3-management
+docker run -d --hostname rabbit-host --name <container name> -p 5672:5672 -p 15672:15672 rabbitmq:3-management
 ```
 *   **Port 5672:** Used by Java code to send messages
 *   **Port 15672:** Used for the Web Dashboard
