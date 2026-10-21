@@ -1,6 +1,6 @@
 # RabbitMQ Ping-Pong - Distributed State Machine
 
-**Authors:** GOMEZ ROSALES Laura Sofía and UMER Muhammad
+**Authors:** GOMEZ ROSALES Laura Sofía
 
 ---
 
